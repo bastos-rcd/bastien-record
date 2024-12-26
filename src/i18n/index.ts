@@ -1,5 +1,5 @@
-import FR from '@/i18n/fr.json'
-import EN from '@/i18n/en.json'
+import FR from '../i18n/fr.json'
+import EN from '../i18n/en.json'
 
 const LANGUAGES = {
     FRENCH: 'fr',
@@ -8,12 +8,12 @@ const LANGUAGES = {
 
 export const useI18n = (
     {
-        current = 'fr'
+        currentLocale = 'fr'
     }: {
-        current: string | undefined
+        currentLocale: string | undefined
     }) => {
-    if (current === LANGUAGES.FRENCH)
-        return FR
-    if (current === LANGUAGES.ENGLISH)
-        return EN
+    if (currentLocale === LANGUAGES.FRENCH) return FR
+    if (currentLocale === LANGUAGES.ENGLISH) return EN
+
+    return FR
 }
