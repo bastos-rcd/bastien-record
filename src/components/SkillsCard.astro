@@ -1,0 +1,29 @@
+---
+import { useI18n } from "../i18n";
+
+interface Props {
+  color: string;
+  id: string;
+  title: string;
+  description: string;
+}
+
+const { color, id, title, description } = Astro.props;
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<div
+  id={id}
+  class="md:h-auto w-full flex flex-col border rounded-xl p-2 md:p-4 items-center"
+  style={"border-color:" + color}
+>
+  <h1 class="text-lg md:text-2xl text-center" style={"color:" + color}>
+    {title}
+  </h1>
+
+  <div class="h-full text-sm md:text-base flex text-center items-center">
+    {description}
+  </div>
+</div>
