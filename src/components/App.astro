@@ -5,6 +5,8 @@ import { useI18n } from "../i18n";
 
 import Header from "./Header.astro";
 
+import Home from "./Home.astro";
+
 const { currentLocale } = Astro;
 const i18n = useI18n({ currentLocale });
 ---
@@ -12,5 +14,7 @@ const i18n = useI18n({ currentLocale });
 <Layout title={i18n.SEO.TITLE}>
   <main class="w-full flex flex-col items-center gap-y-10">
     <Header />
+
+    <Home />
   </main>
 </Layout>

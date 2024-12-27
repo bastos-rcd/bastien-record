@@ -13,5 +13,11 @@
     "PROJECTS": "Projets",
     "ABOUT": "À propos",
     "CONTACT": "Contact"
+  },
+
+  "HOME": {
+    "TITLE": "Salut, je suis Bastien Record",
+    "DESCRIPTION": "Je suis étudiant à l'IUT de Blagnac en informatique. J'aime le développement, les nouvelles technologies et je suis passionné par le sport.",
+    "CV": "Mon CV"
   }
 }
