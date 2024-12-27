@@ -4,5 +4,14 @@
     "DESCRIPTION": "Bastien Record's portfolio.",
     "KEYWORDS": "Bastien Record, developer, France, portfolio",
     "TITLE": "Bastien Record | Portfolio"
+  },
+
+  "HEADER": {
+    "HOME": "Home",
+    "EDUCATION": "Education",
+    "SKILLS": "Skills",
+    "PROJECTS": "Projects",
+    "ABOUT": "About",
+    "CONTACT": "Contact"
   }
 }
