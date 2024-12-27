@@ -3,10 +3,14 @@ import Layout from "../layouts/Layout.astro";
 
 import { useI18n } from "../i18n";
 
+import Header from "./Header.astro";
+
 const { currentLocale } = Astro;
 const i18n = useI18n({ currentLocale });
 ---
 
 <Layout title={i18n.SEO.TITLE}>
-  <main></main>
+  <main class="w-full flex flex-col items-center gap-y-10">
+    <Header />
+  </main>
 </Layout>
