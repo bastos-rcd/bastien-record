@@ -34,5 +34,44 @@
       "SCHOOL": "Lycée Vincent Auriol | Revel (31)",
       "DATE": "2020 - 2022"
     }
+  ],
+
+  "SKILLS": [
+    {
+      "COLOR": "#e73030",
+      "ID": "realize",
+      "TITLE": "Realize",
+      "DESCRIPTION": "Develop (design, code, test, integrate) an IT solution for a client"
+    },
+    {
+      "COLOR": "#e79330",
+      "ID": "optimise",
+      "TITLE": "Optimize",
+      "DESCRIPTION": "Propose optimized IT applications based on specific criteria"
+    },
+    {
+      "COLOR": "#e7cc30",
+      "ID": "administer",
+      "TITLE": "Administer",
+      "DESCRIPTION": "Install, configure, make available, maintain infrastructures, services and networks"
+    },
+    {
+      "COLOR": "#30e757",
+      "ID": "manage",
+      "TITLE": "Manage",
+      "DESCRIPTION": "Design, manage, administer and exploit a company's data"
+    },
+    {
+      "COLOR": "#30abe7",
+      "ID": "drive",
+      "TITLE": "Drive",
+      "DESCRIPTION": "Satisfy user needs, organize and manage an IT project with traditional or agile methods"
+    },
+    {
+      "COLOR": "#000000",
+      "ID": "collaborate",
+      "TITLE": "Collaborate",
+      "DESCRIPTION": "Acquire, develop and exploit the skills necessary to work in a team"
+    }
   ]
 }
