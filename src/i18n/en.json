@@ -19,5 +19,18 @@
     "TITLE": "Hi, I'm Bastien Record",
     "DESCRIPTION": "I'm a student at the IUT of Blagnac in computer science. I love development, new technologies and I'm passionate about sports.",
     "CV": "My CV"
-  }
+  },
+
+  "EDUCATION": [
+    {
+      "TITLE": "Bachelor's degree in Computer Science",
+      "SCHOOL": "IUT Blagnac | University Toulouse 2 Jean Jaurès (31)",
+      "DATE": "2022 - 2025"
+    },
+    {
+      "TITLE": "STI2D option SIN Baccalaureate",
+      "SCHOOL": "Lycée Vincent Auriol | Revel (31)",
+      "DATE": "2020 - 2022"
+    }
+  ]
 }

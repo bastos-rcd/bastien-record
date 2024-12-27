@@ -19,5 +19,18 @@
     "TITLE": "Salut, je suis Bastien Record",
     "DESCRIPTION": "Je suis étudiant à l'IUT de Blagnac en informatique. J'aime le développement, les nouvelles technologies et je suis passionné par le sport.",
     "CV": "Mon CV"
-  }
+  },
+
+  "EDUCATION": [
+    {
+      "TITLE": "Bachelor Universitaire de Technologie Informatique",
+      "SCHOOL": "IUT Blagnac | Université Toulouse 2 Jean Jaurès (31)",
+      "DATE": "2022 - 2025"
+    },
+    {
+      "TITLE": "Baccalauréat STI2D option SIN",
+      "SCHOOL": "Lycée Vincent Auriol | Revel (31)",
+      "DATE": "2020 - 2022"
+    }
+  ]
 }

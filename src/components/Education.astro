@@ -1,0 +1,15 @@
+---
+import TitleSection from "./TitleSection.astro";
+
+import { useI18n } from "../i18n";
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<section
+  id="education"
+  class="w-11/12 md:w-3/4 flex flex-col md:gap-x-5 gap-y-10 md:gap-y-0 items-center"
+>
+  <TitleSection title={i18n.HEADER.EDUCATION} />
+</section>
