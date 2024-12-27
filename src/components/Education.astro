@@ -1,0 +1,29 @@
+---
+import TitleSection from "./TitleSection.astro";
+import EducationCard from "./EducationCard.astro";
+
+import { useI18n } from "../i18n";
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<section
+  id="education"
+  class="w-11/12 md:w-3/4 flex flex-col md:gap-x-5 gap-y-5 md:gap-y-10 items-center"
+>
+  <TitleSection title={i18n.HEADER.EDUCATION} />
+
+  <div class="w-full flex flex-col gap-y-5 md:gap-y-10">
+    {
+      i18n.EDUCATION.map((formation) => (
+        <EducationCard
+          img={formation.IMG}
+          title={formation.TITLE}
+          description={formation.SCHOOL}
+          date={formation.DATE}
+        />
+      ))
+    }
+  </div>
+</section>

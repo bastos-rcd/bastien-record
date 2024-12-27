@@ -6,7 +6,8 @@ const i18n = useI18n({ currentLocale });
 ---
 
 <header
-  class="fixed top-0 w-11/12 md:w-3/4 z-50 border border-white rounded-full mt-5 md:mt-10 px-2 py-2 md:py-1"
+  id="header"
+  class="fixed top-0 w-11/12 md:w-3/4 z-50 bg-transparent border border-white rounded-full mt-5 md:mt-10 px-2 py-2 md:py-1"
 >
   <nav class="flex flex-wrap justify-evenly gap-x-4">
     <a
@@ -41,3 +42,26 @@ const i18n = useI18n({ currentLocale });
     >
   </nav>
 </header>
+
+<script>
+  window.addEventListener("scroll", () => {
+    const header = document.getElementById("header")!;
+    if (window.scrollY > 50) {
+      header.classList.remove("bg-transparent");
+      header.classList.add(
+        "bg-gradient-to-r",
+        "from-[#2d3142]",
+        "via-[#555866]",
+        "to-[#555866]"
+      );
+    } else {
+      header.classList.remove(
+        "bg-gradient-to-r",
+        "from-[#2d3142]",
+        "via-[#555866]",
+        "to-[#555866]"
+      );
+      header.classList.add("bg-transparent");
+    }
+  });
+</script>
