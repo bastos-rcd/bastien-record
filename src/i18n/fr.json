@@ -23,11 +23,13 @@
 
   "EDUCATION": [
     {
+      "IMG": "/img/but.webp",
       "TITLE": "Bachelor Universitaire de Technologie Informatique",
       "SCHOOL": "IUT Blagnac | Université Toulouse 2 Jean Jaurès (31)",
       "DATE": "2022 - 2025"
     },
     {
+      "IMG": "/img/bac.webp",
       "TITLE": "Baccalauréat STI2D option SIN",
       "SCHOOL": "Lycée Vincent Auriol | Revel (31)",
       "DATE": "2020 - 2022"
