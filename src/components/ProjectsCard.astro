@@ -1,0 +1,62 @@
+---
+import { useI18n } from "../i18n";
+
+interface Props {
+  img: string;
+  title: string;
+  description: string;
+  github: string;
+  skills: any[];
+}
+
+const { img, title, description, github, skills } = Astro.props;
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<div
+  class="w-full flex flex-col md:flex-row md:flex-nowrap gap-y-5 md:gap-y-0 md:gap-x-10"
+>
+  <div
+    class="w-full md:w-2/5 bg-gradient-to-r from-[#4F5D75] to-[#BFC0C0] p-5 rounded-xl"
+  >
+    <img src={img} class="h-auto w-auto" />
+  </div>
+
+  <div class="w-full md:w-3/5 flex flex-col gap-y-4 md:gap-y-5 justify-center">
+    <div
+      class="w-full flex flex-col md:flex-row md:flex-nowrap md:justify-between items-center"
+    >
+      <h1 class="text-xl md:text-2xl font-bold">
+        {title}
+      </h1>
+      <a
+        href={github}
+        target="_blank"
+        class="self-end md:self-auto w-auto px-1 flex flex-row flex-nowrap gap-x-2 bg-white rounded-xl justify-center items-center hover:bg-gray-200 transition-colors duration-300"
+      >
+        <img src="/img/github-black.webp" class="w-4 md:w-8" />
+        <h2 class="text-sm md:text-base text-black">Code</h2>
+      </a>
+    </div>
+    <div
+      class="w-full flex flex-row flex-nowrap justify-between md:justify-stretch md:gap-x-5"
+    >
+      {
+        skills.map((skill) => (
+          <a
+            href={skill.ID}
+            class="text-xs md:text-base py-1 px-2 md:py-1 md:px-2 rounded-full text-white"
+            style={"background-color:" + skill.COLOR}
+          >
+            {skill.NAME}
+          </a>
+        ))
+      }
+    </div>
+    <p class="text-base md:text-lg">
+      {description}
+    </p>
+  </div>
+</div>
