@@ -1,0 +1,32 @@
+---
+import TitleSection from "./TitleSection.astro";
+
+import { useI18n } from "../i18n";
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<section
+  id="contact"
+  class="w-11/12 md:w-3/4 flex flex-col gap-y-5 md:gap-y-10 items-center"
+>
+  <TitleSection title={i18n.HEADER.CONTACT} />
+
+  <div
+    class="w-full flex flex-col md:flex-row md:flex-nowrap items-center md:justify-evenly gap-y-5 md:gap-y-0"
+  >
+    {
+      i18n.CONTACT.map((contact) => (
+        <a
+          href={contact.LINK}
+          target="_blank"
+          class="flex flex-row items-center hover:underline gap-x-2"
+        >
+          <img src={contact.IMG} class="w-5 md:w-10" />
+          <h1 class="text-base md:text-lg">{contact.TITLE}</h1>
+        </a>
+      ))
+    }
+  </div>
+</section>
