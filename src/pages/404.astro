@@ -1,0 +1,26 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="404 - Not Found">
+  <main
+    class="min-w-screen min-h-screen w-screen h-screen flex items-center justify-center"
+  >
+    <div class="flex flex-col justify-center items-center gap-y-10">
+      <div style="font-size: 5rem;">404</div>
+      <p class="text-center" style="font-size: 2rem;">
+        Oops! The page you’re looking for doesn’t exist.
+      </p>
+      <p class="text-center" style="font-size: 1rem;">
+        But you can always return to the homepage.
+      </p>
+      <a
+        href="/"
+        class="text-black bg-white rounded-xl py-1 px-2 hover:bg-gray-400 transition-colors duration-300"
+        style="font-size: 0.8rem;"
+      >
+        Back to Home
+      </a>
+    </div>
+  </main>
+</Layout>
