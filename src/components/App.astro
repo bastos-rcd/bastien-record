@@ -7,6 +7,7 @@ import Home from "./Home.astro";
 import Education from "./Education.astro";
 import Skills from "./Skills.astro";
 import Projects from "./Projects.astro";
+import About from "./About.astro";
 
 import { useI18n } from "../i18n";
 
@@ -19,11 +20,9 @@ const i18n = useI18n({ currentLocale });
     <Header />
 
     <Home />
-
     <Education />
-
     <Skills />
-
     <Projects />
+    <About />
   </main>
 </Layout>

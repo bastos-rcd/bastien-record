@@ -145,5 +145,11 @@
         }
       ]
     }
-  ]
+  ],
+
+  "ABOUT": {
+    "TITLE": "Bastien Record",
+    "DESCRIPTION1": "I am currently in my third year at the IUT of Blagnac, where I specialize in web and software development. My professional goal is to become a developer, with a particular passion for innovative technologies and the creation of interactive tools.",
+    "DESCRIPTION2": "Apart from IT, sport plays an important place in my life. I played basketball for 9 years, and I had the opportunity to pass on my passion as a coach for 2 years. Following an injury, I had to stop playing basketball, but I found another way to stay active by devoting myself to bodybuilding."
+  }
 }
