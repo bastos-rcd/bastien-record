@@ -1,0 +1,20 @@
+---
+import { useI18n } from "../i18n";
+
+const YEAR = new Date().getFullYear();
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<footer id="footer" class="w-full">
+  <p class="w-full text-xs md:text-base text-center">
+    © {YEAR}
+    {i18n.FOOTER.TITLE}
+    -
+    {i18n.FOOTER.DESCRIPTION}
+    <a class="underline" href={i18n.FOOTER.LINK} target="_blank">
+      {i18n.FOOTER.NAME}
+    </a>
+  </p>
+</footer>

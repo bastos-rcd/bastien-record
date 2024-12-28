@@ -169,5 +169,12 @@
       "TITLE": "/bastos-rcd",
       "LINK": "https://www.github.com/bastos-rcd"
     }
-  ]
+  ],
+
+  "FOOTER": {
+    "TITLE": "Bastien Record",
+    "DESCRIPTION": "Inspiré par",
+    "NAME": "midudev",
+    "LINK": "https://github.com/midudev/porfolio.dev"
+  }
 }
