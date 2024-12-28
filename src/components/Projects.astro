@@ -1,0 +1,30 @@
+---
+import TitleSection from "./TitleSection.astro";
+import ProjectsCard from "./ProjectsCard.astro";
+
+import { useI18n } from "../i18n";
+
+const { currentLocale } = Astro;
+const i18n = useI18n({ currentLocale });
+---
+
+<section
+  id="projects"
+  class="w-11/12 md:w-3/4 flex flex-col gap-y-5 md:gap-y-10 items-center"
+>
+  <TitleSection title={i18n.HEADER.PROJECTS} />
+
+  <div class="w-full flex flex-col gap-y-5 md:gap-y-10">
+    {
+      i18n.PROJECTS.map((project) => (
+        <ProjectsCard
+          img={project.IMG}
+          title={project.TITLE}
+          description={project.DESCRIPTION}
+          github={project.GITHUB}
+          skills={project.SKILLS}
+        />
+      ))
+    }
+  </div>
+</section>

@@ -23,13 +23,13 @@
 
   "EDUCATION": [
     {
-      "IMG": "/img/but.webp",
+      "IMG": "/img/education/but.webp",
       "TITLE": "Bachelor's degree in Computer Science",
       "SCHOOL": "IUT Blagnac | University Toulouse 2 Jean Jaurès (31)",
       "DATE": "2022 - 2025"
     },
     {
-      "IMG": "/img/bac.webp",
+      "IMG": "/img/education/bac.webp",
       "TITLE": "STI2D option SIN Baccalaureate",
       "SCHOOL": "Lycée Vincent Auriol | Revel (31)",
       "DATE": "2020 - 2022"
@@ -72,6 +72,78 @@
       "ID": "collaborate",
       "TITLE": "Collaborate",
       "DESCRIPTION": "Acquire, develop and exploit the skills necessary to work in a team"
+    }
+  ],
+
+  "PROJECTS": [
+    {
+      "IMG": "/img/projects/emcaffe.webp",
+      "TITLE": "EMCAFFE - Showcase website",
+      "DESCRIPTION": "Showcase website for the presentation of the company EMCA and its product",
+      "GITHUB": "https://github.com/bastos-rcd/EMCAFFE",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Realize"
+        },
+        {
+          "ID": "#drive",
+          "COLOR": "#30abe7",
+          "NAME": "Drive"
+        },
+        {
+          "ID": "#collaborate",
+          "COLOR": "#000000",
+          "NAME": "Collaborate"
+        }
+      ]
+    },
+    {
+      "IMG": "/img/projects/paranoia.webp",
+      "TITLE": "ParanoIA - Web application",
+      "DESCRIPTION": "Web application using the principle of the AmongUs game to play it in real life",
+      "GITHUB": "https://github.com/bastos-rcd/ParanoIA",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Realize"
+        },
+        {
+          "ID": "#optimise",
+          "COLOR": "#e79330",
+          "NAME": "Optimize"
+        },
+        {
+          "ID": "#manage",
+          "COLOR": "#30e757",
+          "NAME": "Manage"
+        }
+      ]
+    },
+    {
+      "IMG": "/img/projects/spix.webp",
+      "TITLE": "SPIX - Android application",
+      "DESCRIPTION": "Android application samples that uses the SPIX voice assistant API",
+      "GITHUB": "https://bastien-record.web.app",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Realize"
+        },
+        {
+          "ID": "#optimise",
+          "COLOR": "#e79330",
+          "NAME": "Optimize"
+        },
+        {
+          "ID": "#administer",
+          "COLOR": "#e7cc30",
+          "NAME": "Administer"
+        }
+      ]
     }
   ]
 }
