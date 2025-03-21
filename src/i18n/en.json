@@ -23,6 +23,12 @@
 
   "EDUCATION": [
     {
+      "IMG": "/img/education/master.webp",
+      "TITLE": "MBA Full-Stack Developer",
+      "SCHOOL": "MyDigitalSchool | Labège (31)",
+      "DATE": "2025 - 2027"
+    },
+    {
       "IMG": "/img/education/but.webp",
       "TITLE": "Bachelor's degree in Computer Science",
       "SCHOOL": "IUT Blagnac | University Toulouse 2 Jean Jaurès (31)",

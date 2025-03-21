@@ -23,6 +23,12 @@
 
   "EDUCATION": [
     {
+      "IMG": "/img/education/master.webp",
+      "TITLE": "MBA Développeur Full-Stack",
+      "SCHOOL": "MyDigitalSchool | Labège (31)",
+      "DATE": "2025 - 2027"
+    },
+    {
       "IMG": "/img/education/but.webp",
       "TITLE": "Bachelor Universitaire de Technologie Informatique",
       "SCHOOL": "IUT Blagnac | Université Toulouse 2 Jean Jaurès (31)",
