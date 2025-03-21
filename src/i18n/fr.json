@@ -83,6 +83,52 @@
 
   "PROJECTS": [
     {
+      "IMG": "/img/projects/mobix.webp",
+      "TITLE": "Mobix - Application web",
+      "DESCRIPTION": "Portail sécurisé pour agents IA connectables",
+      "GITHUB": "https://bastien-record.web.app/404",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Réaliser"
+        },
+        {
+          "ID": "#optimise",
+          "COLOR": "#e79330",
+          "NAME": "Optimiser"
+        },
+        {
+          "ID": "manage",
+          "COLOR": "#30e757",
+          "NAME": "Gérer"
+        }
+      ]
+    },
+    {
+      "IMG": "/img/projects/gym.webp",
+      "TITLE": "IUT Blagnac - Application web",
+      "DESCRIPTION": "Application web et API REST pour la gestion d'un club de sport",
+      "GITHUB": "https://github.com/bastos-rcd/TheGym",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Réaliser"
+        },
+        {
+          "ID": "manage",
+          "COLOR": "#30e757",
+          "NAME": "Gérer"
+        },
+        {
+          "ID": "#drive",
+          "COLOR": "#30abe7",
+          "NAME": "Conduire"
+        }
+      ]
+    },
+    {
       "IMG": "/img/projects/emcaffe.webp",
       "TITLE": "EMCAFFE - Site web vitrine",
       "DESCRIPTION": "Site web vitrine pour la présenation de l'entreprise EMCA et son produit",
@@ -102,29 +148,6 @@
           "ID": "#collaborate",
           "COLOR": "#000000",
           "NAME": "Collaborer"
-        }
-      ]
-    },
-    {
-      "IMG": "/img/projects/paranoia.webp",
-      "TITLE": "ParanoIA - Application web",
-      "DESCRIPTION": "Application web reprenant le principe du jeu AmongUs pour y jouer dans la vraie vie",
-      "GITHUB": "https://github.com/bastos-rcd/ParanoIA",
-      "SKILLS": [
-        {
-          "ID": "#realize",
-          "COLOR": "#e73030",
-          "NAME": "Réaliser"
-        },
-        {
-          "ID": "#optimise",
-          "COLOR": "#e79330",
-          "NAME": "Optimiser"
-        },
-        {
-          "ID": "#manage",
-          "COLOR": "#30e757",
-          "NAME": "Gérer"
         }
       ]
     },
