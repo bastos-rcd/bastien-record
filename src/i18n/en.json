@@ -17,11 +17,17 @@
 
   "HOME": {
     "TITLE": "Hi, I'm Bastien Record",
-    "DESCRIPTION": "I'm a student at the IUT of Blagnac in computer science. I love development, new technologies and I'm passionate about sports.",
+    "DESCRIPTION": "I am a computer science student to become full-stack developer. I love development, new technologies and I'm passionate about sports.",
     "CV": "My CV"
   },
 
   "EDUCATION": [
+    {
+      "IMG": "/img/education/master.webp",
+      "TITLE": "MBA Full-Stack Developer",
+      "SCHOOL": "MyDigitalSchool | Labège (31)",
+      "DATE": "2025 - 2027"
+    },
     {
       "IMG": "/img/education/but.webp",
       "TITLE": "Bachelor's degree in Computer Science",
@@ -77,6 +83,52 @@
 
   "PROJECTS": [
     {
+      "IMG": "/img/projects/mobix.webp",
+      "TITLE": "Mobix - Web application",
+      "DESCRIPTION": "Secure portal for connectable AI agents",
+      "GITHUB": "https://bastien-record.web.app/404",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Réaliser"
+        },
+        {
+          "ID": "#optimise",
+          "COLOR": "#e79330",
+          "NAME": "Optimiser"
+        },
+        {
+          "ID": "manage",
+          "COLOR": "#30e757",
+          "NAME": "Gérer"
+        }
+      ]
+    },
+    {
+      "IMG": "/img/projects/gym.webp",
+      "TITLE": "IUT Blagnac - Web application",
+      "DESCRIPTION": "Web application and REST API for the management of a sports club",
+      "GITHUB": "https://github.com/bastos-rcd/TheGym",
+      "SKILLS": [
+        {
+          "ID": "#realize",
+          "COLOR": "#e73030",
+          "NAME": "Réaliser"
+        },
+        {
+          "ID": "manage",
+          "COLOR": "#30e757",
+          "NAME": "Gérer"
+        },
+        {
+          "ID": "#drive",
+          "COLOR": "#30abe7",
+          "NAME": "Conduire"
+        }
+      ]
+    },
+    {
       "IMG": "/img/projects/emcaffe.webp",
       "TITLE": "EMCAFFE - Showcase website",
       "DESCRIPTION": "Showcase website for the presentation of the company EMCA and its product",
@@ -96,29 +148,6 @@
           "ID": "#collaborate",
           "COLOR": "#000000",
           "NAME": "Collaborate"
-        }
-      ]
-    },
-    {
-      "IMG": "/img/projects/paranoia.webp",
-      "TITLE": "ParanoIA - Web application",
-      "DESCRIPTION": "Web application using the principle of the AmongUs game to play it in real life",
-      "GITHUB": "https://github.com/bastos-rcd/ParanoIA",
-      "SKILLS": [
-        {
-          "ID": "#realize",
-          "COLOR": "#e73030",
-          "NAME": "Realize"
-        },
-        {
-          "ID": "#optimise",
-          "COLOR": "#e79330",
-          "NAME": "Optimize"
-        },
-        {
-          "ID": "#manage",
-          "COLOR": "#30e757",
-          "NAME": "Manage"
         }
       ]
     },
@@ -149,7 +178,7 @@
 
   "ABOUT": {
     "TITLE": "Bastien Record",
-    "DESCRIPTION1": "I am currently in my third year at the IUT of Blagnac, where I specialize in web and software development. My professional goal is to become a developer, with a particular passion for innovative technologies and the creation of interactive tools.",
+    "DESCRIPTION1": "I am currently in third year internship of BUT Informatique, in the company Mobix, where I specialize in web development and AI. My professional goal is to become a full-stack developer, with a particular passion for innovative technologies and the creation of interactive tools.",
     "DESCRIPTION2": "Apart from IT, sport plays an important place in my life. I played basketball for 9 years, and I had the opportunity to pass on my passion as a coach for 2 years. Following an injury, I had to stop playing basketball, but I found another way to stay active by devoting myself to bodybuilding."
   },
 
